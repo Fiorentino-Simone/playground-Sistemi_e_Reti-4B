@@ -1,0 +1,3 @@
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese01_Puntatori base (sizeof)/cmake-build-debug/CMakeFiles/Puntatori.dir
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese01_Puntatori base (sizeof)/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese01_Puntatori base (sizeof)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

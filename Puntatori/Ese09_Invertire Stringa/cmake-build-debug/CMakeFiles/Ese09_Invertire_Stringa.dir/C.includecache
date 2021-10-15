@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese09_Invertire Stringa/main.c
+stdio.h
+-
+stdlib.h
+-
+

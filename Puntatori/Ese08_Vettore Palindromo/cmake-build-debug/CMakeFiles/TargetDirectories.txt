@@ -1,0 +1,3 @@
+G:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese08_Vettore Palindromo/cmake-build-debug/CMakeFiles/Ese08_Vettore_Palindromo.dir
+G:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese08_Vettore Palindromo/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese08_Vettore Palindromo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

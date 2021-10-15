@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Nodi/Ese01 Nodi/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

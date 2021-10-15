@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese08_Vettore Palindromo/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

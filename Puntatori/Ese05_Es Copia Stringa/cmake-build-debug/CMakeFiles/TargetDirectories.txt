@@ -1,0 +1,3 @@
+D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese05_Es Copia Stringa/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese05_Es Copia Stringa/cmake-build-debug/CMakeFiles/Ese05_Es_Copia_Stringa.dir
+D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese05_Es Copia Stringa/cmake-build-debug/CMakeFiles/rebuild_cache.dir

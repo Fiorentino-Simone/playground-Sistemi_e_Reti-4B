@@ -1,0 +1,3 @@
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese02_Aritmetica dei puntatori/cmake-build-debug/CMakeFiles/Ese02_Aritmetica_dei_puntatori.dir
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese02_Aritmetica dei puntatori/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese02_Aritmetica dei puntatori/cmake-build-debug/CMakeFiles/rebuild_cache.dir

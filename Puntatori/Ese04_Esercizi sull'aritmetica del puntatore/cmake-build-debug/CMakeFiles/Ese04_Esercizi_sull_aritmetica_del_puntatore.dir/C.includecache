@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull'aritmetica del puntatore/main.c
+stdio.h
+-
+

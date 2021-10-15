@@ -1,0 +1,3 @@
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese03_Allocazione Dinamica/cmake-build-debug/CMakeFiles/Ese03_Allocazione_Dinamica.dir
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese03_Allocazione Dinamica/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese03_Allocazione Dinamica/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Ese04_Esercizi_sull_aritmetica_del_puntatore"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull&apos;aritmetica del puntatore/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ese04_Esercizi_sull_aritmetica_del_puntatore">
+				<Option output="D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull&apos;aritmetica del puntatore/cmake-build-debug/Ese04_Esercizi_sull_aritmetica_del_puntatore.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull&apos;aritmetica del puntatore/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 Ese04_Esercizi_sull_aritmetica_del_puntatore"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ese04_Esercizi_sull_aritmetica_del_puntatore/fast">
+				<Option output="D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull&apos;aritmetica del puntatore/cmake-build-debug/Ese04_Esercizi_sull_aritmetica_del_puntatore.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull&apos;aritmetica del puntatore/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 Ese04_Esercizi_sull_aritmetica_del_puntatore/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull&apos;aritmetica del puntatore/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull&apos;aritmetica del puntatore/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Ese04_Esercizi sull&apos;aritmetica del puntatore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull&apos;aritmetica del puntatore/main.c">
+			<Option target="Ese04_Esercizi_sull_aritmetica_del_puntatore"/>
+		</Unit>
+		<Unit filename="D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Ese04_Esercizi sull&apos;aritmetica del puntatore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

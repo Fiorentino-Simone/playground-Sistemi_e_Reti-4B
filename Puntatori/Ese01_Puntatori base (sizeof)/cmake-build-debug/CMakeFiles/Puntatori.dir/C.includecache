@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/SUPERIORI/4^SUPERIORE/SISTEMI E RETI/Ese01_Puntatori base (sizeof)/main.c
+stdio.h
+-
+
