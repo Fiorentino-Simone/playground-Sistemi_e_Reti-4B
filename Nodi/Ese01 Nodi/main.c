@@ -1,3 +1,5 @@
+//////////////////////////////////////////////////////////////////FIORENTINO SIMONE 4^B INFO///////////////////////////////////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,7 +15,8 @@ Studente* addOnHead(Studente *head, int *progStud);
 Studente* nuovoStudente(int *prog);
 Studente* addOnTail(Studente *head, int *progStud);
 void showList(Studente *head);
-
+int contaNodi(Studente* head);
+Studente* AddByPos(Studente* head, int *progStud);
 
 int main() {
     int progStud=0; //Progressivo per il codice dello studente
@@ -26,6 +29,8 @@ int main() {
         printf("1. Aggiungi Nodo in TESTA\n");
         printf("2. Aggiungi Nodo in CODA\n");
         printf("3. Stampa Lista\n");
+        printf("4. Lunghezza della lista\n");
+        printf("5. Aggiungi nella lista un nodo in una posizione in input\n");
         printf("0. Esci\n");
         printf("Scelta: ");
         scanf("%d",&scelta);
@@ -42,6 +47,16 @@ int main() {
             case 3:
                 //Stampa Lista
                 showList(testa);
+                break;
+
+            case 4:
+                //conta il numero di nodi in una lista
+                printf("Il numero di nodi nella lista sono: %i\n", contaNodi(testa));
+                break;
+
+            case 5:
+                //Aggiungi nodo in una pos in input
+                testa=AddByPos(testa, &progStud);
                 break;
         }
     }while(scelta!=0);
@@ -94,6 +109,72 @@ Studente* addOnHead(Studente *head, int *prog){
     return pStu;
 }
 
+
+Studente* AddByPos(Studente* head, int *prog){
+    Studente *NodoPrecedente;
+    Studente* pLista;
+    Studente* pStu;
+    int pos; //variabile con la posizione in input
+    int cont; //lunghezza della lista
+    int i = 1;//indice lista
+
+    pStu = nuovoStudente(prog);
+    pLista = head;
+    NodoPrecedente = head;
+    printf("Inserisci la posizione: ");
+    scanf("%i", &pos);
+    if(head == NULL)
+        head = pStu;
+    else
+    {
+        cont = contaNodi(head);
+        if(pos>cont)
+        {
+            while(pLista->next != NULL)
+                pLista = pLista->next;
+            pLista->next = pStu;
+        }
+        else
+        {
+            do
+            {
+                if(pos == 1)
+                {
+                    if(i==pos)
+                    {
+                        NodoPrecedente = pStu;
+                        pStu->next = pLista;
+                    }
+                    else
+                    {
+                        NodoPrecedente = pLista;
+                        pLista= pLista->next;
+                    }
+                }
+                else
+                {
+                    if(i == pos)
+                    {
+
+                        NodoPrecedente->next = pStu;
+                        pStu->next = pLista;
+                    }
+                    else
+                    {
+                        NodoPrecedente = pLista;
+                        pLista = pLista->next;
+                    }
+                }
+                i++;
+            }
+            while(i<=cont);
+        }
+        if(pos == 1)
+            return pStu;
+    }
+    return head;
+}
+
 Studente* nuovoStudente(int *prog){
     //bisogna allocare un nuovo spazio per l'intera struttura (quindi 4 "contenitori" ==> vedi struttura Studente)
     char cogn[20];
@@ -118,4 +199,22 @@ Studente* nuovoStudente(int *prog){
     pNew->media=med;
     pNew->next=NULL; //Punta a NULL, dovessimo aggiungere il nodo alla fine potremmo lasciare NULL senno bisogna inserirli testa (vedere la funzione precedente)
     return pNew;
+}
+
+int contaNodi(Studente* head)
+{
+    int cnt = 1;
+    Studente *pLista;
+    pLista = head;
+    if(pLista == NULL)
+        return cnt;
+    else
+    {
+        while(pLista->next != NULL)
+        {
+            pLista = pLista->next;
+            cnt++;
+        }
+        return cnt;
+    }
 }
