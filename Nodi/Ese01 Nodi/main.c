@@ -15,12 +15,14 @@ Studente* addOnHead(Studente *head, int *progStud);
 Studente* nuovoStudente(int *prog);
 Studente* addOnTail(Studente *head, int *progStud);
 void showList(Studente *head);
-int contaNodi(Studente* head);
-Studente* AddByPos(Studente* head, int *progStud);
+int contaNodi(Studente *head);
+Studente* AddByPos(Studente *head, int *progStud, int pos);
+Studente* delByPos(Studente *head, int *progStud, int pos);
 
 int main() {
     int progStud=0; //Progressivo per il codice dello studente
     Studente *testa = NULL; //Puntatore al primo nodo, senza di questo perderemmo la lista
+    int posizione;
 
     //OBBIETTIVO: creare una serie di nodi concatenati e stampare il risultato
     int scelta;
@@ -56,7 +58,9 @@ int main() {
 
             case 5:
                 //Aggiungi nodo in una pos in input
-                testa=AddByPos(testa, &progStud);
+                printf("Inserisci la posizione: \n");
+                scanf("%i",&posizione);
+                testa=AddByPos(testa, &progStud, posizione);
                 break;
         }
     }while(scelta!=0);
@@ -110,69 +114,45 @@ Studente* addOnHead(Studente *head, int *prog){
 }
 
 
-Studente* AddByPos(Studente* head, int *prog){
-    Studente *NodoPrecedente;
-    Studente* pLista;
-    Studente* pStu;
-    int pos; //variabile con la posizione in input
-    int cont; //lunghezza della lista
-    int i = 1;//indice lista
+Studente* AddByPos(Studente* head, int *prog, int pos){
+    int i;
+    Studente *pNew;
+    Studente *pList;
 
-    pStu = nuovoStudente(prog);
-    pLista = head;
-    NodoPrecedente = head;
-    printf("Inserisci la posizione: ");
-    scanf("%i", &pos);
-    if(head == NULL)
-        head = pStu;
-    else
-    {
-        cont = contaNodi(head);
-        if(pos>cont)
-        {
-            while(pLista->next != NULL)
-                pLista = pLista->next;
-            pLista->next = pStu;
-        }
-        else
-        {
-            do
-            {
-                if(pos == 1)
-                {
-                    if(i==pos)
-                    {
-                        NodoPrecedente = pStu;
-                        pStu->next = pLista;
-                    }
-                    else
-                    {
-                        NodoPrecedente = pLista;
-                        pLista= pLista->next;
-                    }
-                }
-                else
-                {
-                    if(i == pos)
-                    {
+    if(pos==1){
+        head=addOnHead(head,prog);
+    }
+    else{
+        if(pos > contaNodi(head))
+            head=addOnTail(head,prog);
+        else{
+            pNew=nuovoStudente(prog);
+            pList=head;
 
-                        NodoPrecedente->next = pStu;
-                        pStu->next = pLista;
-                    }
-                    else
-                    {
-                        NodoPrecedente = pLista;
-                        pLista = pLista->next;
-                    }
-                }
-                i++;
+            for (i = 1; i < pos-1; i++) { //posizioniamo pList
+                pList=pList->next;
             }
-            while(i<=cont);
+            pNew->next = pList->next;
+            pList->next=pNew;
         }
-        if(pos == 1)
-            return pStu;
     }
     return head;
+}
+
+Studente* delByPos(Studente *head, int *prog, int pos){
+    //cancelli nodo in base alla posizione
+    int i=0;
+
+    Studente *pStu;
+    pStu=head;
+
+    if(pos == 1){
+        head=head->next;//stessa cosa di scrivere pStu-> next
+    }
+
+    for (i = 0;i < pos-1; i++) {
+
+    }
 }
 
 Studente* nuovoStudente(int *prog){
@@ -201,20 +181,16 @@ Studente* nuovoStudente(int *prog){
     return pNew;
 }
 
-int contaNodi(Studente* head)
+int contaNodi(Studente *head)
 {
-    int cnt = 1;
+    int cnt = 0;
     Studente *pLista;
     pLista = head;
-    if(pLista == NULL)
-        return cnt;
-    else
+    while(pLista != NULL)
     {
-        while(pLista->next != NULL)
-        {
-            pLista = pLista->next;
-            cnt++;
-        }
-        return cnt;
+        pLista = pLista->next;
+        cnt++;
     }
+    return cnt;
 }
+
