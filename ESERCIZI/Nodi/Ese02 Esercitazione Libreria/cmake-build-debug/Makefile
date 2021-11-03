@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria"
+CMAKE_SOURCE_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Nodi/Ese02 Esercitazione Libreria/listalib.h
+E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese02 Esercitazione Libreria/listalib.h
 stdio.h
 -
 stdlib.h
@@ -14,7 +14,7 @@ stdlib.h
 string.h
 -
 
-E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Nodi/Ese02 Esercitazione Libreria/main.c
+E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese02 Esercitazione Libreria/main.c
 listalib.h
-E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Nodi/Ese02 Esercitazione Libreria/listalib.h
+E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese02 Esercitazione Libreria/listalib.h
 

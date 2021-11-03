@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Nodi/Ese02 Esercitazione Libreria/main.c" "E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Nodi/Ese02 Esercitazione Libreria/cmake-build-debug/CMakeFiles/Ese02_Esercitazione_Libreria.dir/main.c.obj"
+  "E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese02 Esercitazione Libreria/main.c" "E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese02 Esercitazione Libreria/cmake-build-debug/CMakeFiles/Ese02_Esercitazione_Libreria.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

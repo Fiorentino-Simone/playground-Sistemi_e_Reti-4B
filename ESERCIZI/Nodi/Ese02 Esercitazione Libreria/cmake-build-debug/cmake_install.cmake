@@ -1,4 +1,4 @@
-# Install script for directory: E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Nodi/Ese02 Esercitazione Libreria
+# Install script for directory: E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese02 Esercitazione Libreria
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/Nodi/Ese02 Esercitazione Libreria/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese02 Esercitazione Libreria/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

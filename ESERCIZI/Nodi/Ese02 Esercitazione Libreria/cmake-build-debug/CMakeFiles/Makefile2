@@ -43,10 +43,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria"
+CMAKE_SOURCE_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -70,14 +70,14 @@ clean: CMakeFiles\Ese02_Esercitazione_Libreria.dir\clean
 CMakeFiles\Ese02_Esercitazione_Libreria.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ese02_Esercitazione_Libreria.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Ese02_Esercitazione_Libreria.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ese02_Esercitazione_Libreria.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Ese02_Esercitazione_Libreria.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Ese02_Esercitazione_Libreria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Ese02_Esercitazione_Libreria"
 .PHONY : CMakeFiles\Ese02_Esercitazione_Libreria.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Ese02_Esercitazione_Libreria.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Ese02_Esercitazione_Libreria.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles\Ese02_Esercitazione_Libreria.dir\rule
 
 # Convenience name for target.

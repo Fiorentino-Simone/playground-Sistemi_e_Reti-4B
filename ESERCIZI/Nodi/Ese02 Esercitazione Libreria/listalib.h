@@ -17,9 +17,10 @@ Studente* addOnTail(Studente *head, int *prog, Studente *newSt); // Add nodo in 
 void showList(Studente *head);
 int contaNodi(Studente *head);
 Studente* addByPos(Studente *head, int *prog, int pos);
-Studente* delByPos(Studente *head, int *prog, int pos);
+Studente* delByPos(Studente *head, int pos);
 Studente* loadFromFile(Studente *head, int *prog, char* file_name);
 Studente* nuovoStudenteDaFile(int *prog, char *cogn, float med);
+void sortList(Studente *head);
 
 
 Studente* addOnHead(Studente *head, int *prog){
@@ -145,24 +146,31 @@ Studente* addByPos(Studente *head, int *prog, int pos){
     return head;
 }
 
-Studente* delByPos(Studente *head, int *prog, int pos){
-    //DA FINIRE
-    int i = 0;
-    Studente *pStud;
-    pStud = head;
-
-    if(pos > prog){
-
-    }
-
-    if(pos == 1){
+Studente* delByPos(Studente *head, int pos){
+    int i=1;
+    Studente *pStu;
+    int cnt=contaNodi(head);
+    if(pos == 1 || cnt == 1)
         head = head->next;
+    else
+    {
+        pStu = head;
+        if(cnt <= pos)
+        {
+            for(i=1;i< (cnt-1);i++)
+                pStu = pStu->next;
+            pStu->next = NULL;
+        }
+        else
+        {
+            while(i < pos - 1)
+            {
+                i++;
+                pStu = pStu->next;
+            }
+            pStu->next = pStu->next->next;
+        }
     }
-
-    for(i = 0; i < pos - 1; i++){
-
-    }
-
     return head;
 }
 
@@ -205,6 +213,43 @@ Studente* loadFromFile(Studente *head, int *prog, char* fileName){
     }
     fclose(fp); // Chiusura del file
     return head;
+}
+
+void sortList(Studente *head){
+    Studente *pList;
+    Studente *i;
+    char temp[20+1];
+    int prog;
+    float media;
+
+    pList=head;
+    i=NULL;
+
+    if(head==NULL){
+        return;
+    }
+    else{
+        while(pList!=NULL){
+            i=pList->next;  //si va a puntaree il nodo successivo in i
+            while(i!=NULL){
+                if(strcmp(pList->cognome,i->cognome)>0){ //se il nodo corrente e più grande del nodo indice si va a fare l'ordinamento
+                    strcpy(temp, pList->cognome);
+                    strcpy(pList->cognome, i->cognome);
+                    strcpy(i->cognome, temp);
+
+                    prog=pList->codice;
+                    pList->codice=i->codice;
+                    i->codice=prog;
+
+                    media=pList->media;
+                    pList->media=i->media;
+                    i->media=media;
+                }
+                i=i->next;
+            }
+            pList=pList->next;
+        }
+    }
 }
 
 #endif //INC_01_NODO_LISTALIB_H

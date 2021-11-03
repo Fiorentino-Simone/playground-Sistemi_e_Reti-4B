@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria"
+CMAKE_SOURCE_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles\Ese02_Esercitazione_Libreria.dir\depend.make
@@ -57,21 +57,21 @@ include CMakeFiles\Ese02_Esercitazione_Libreria.dir\flags.make
 
 CMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.obj: CMakeFiles\Ese02_Esercitazione_Libreria.dir\flags.make
 CMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.obj: ..\main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ese02_Esercitazione_Libreria.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ese02_Esercitazione_Libreria.dir/main.c.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.obj /FdCMakeFiles\Ese02_Esercitazione_Libreria.dir\ /FS -c "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\main.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.obj /FdCMakeFiles\Ese02_Esercitazione_Libreria.dir\ /FS -c "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\main.c"
 <<
 
 CMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ese02_Esercitazione_Libreria.dir/main.c.i"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\main.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\main.c"
 <<
 
 CMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ese02_Esercitazione_Libreria.dir/main.c.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.s /c "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\main.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.s /c "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\main.c"
 <<
 
 # Object files for target Ese02_Esercitazione_Libreria
@@ -84,9 +84,9 @@ Ese02_Esercitazione_Libreria_EXTERNAL_OBJECTS =
 Ese02_Esercitazione_Libreria.exe: CMakeFiles\Ese02_Esercitazione_Libreria.dir\main.c.obj
 Ese02_Esercitazione_Libreria.exe: CMakeFiles\Ese02_Esercitazione_Libreria.dir\build.make
 Ese02_Esercitazione_Libreria.exe: CMakeFiles\Ese02_Esercitazione_Libreria.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Ese02_Esercitazione_Libreria.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Ese02_Esercitazione_Libreria.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Ese02_Esercitazione_Libreria.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Ese02_Esercitazione_Libreria.dir\objects1.rsp @<<
- /out:Ese02_Esercitazione_Libreria.exe /implib:Ese02_Esercitazione_Libreria.lib /pdb:"E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\Ese02_Esercitazione_Libreria.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:Ese02_Esercitazione_Libreria.exe /implib:Ese02_Esercitazione_Libreria.lib /pdb:"E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\Ese02_Esercitazione_Libreria.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -98,6 +98,6 @@ CMakeFiles\Ese02_Esercitazione_Libreria.dir\clean:
 .PHONY : CMakeFiles\Ese02_Esercitazione_Libreria.dir\clean
 
 CMakeFiles\Ese02_Esercitazione_Libreria.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles\Ese02_Esercitazione_Libreria.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug" "E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese02 Esercitazione Libreria\cmake-build-debug\CMakeFiles\Ese02_Esercitazione_Libreria.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles\Ese02_Esercitazione_Libreria.dir\depend
 

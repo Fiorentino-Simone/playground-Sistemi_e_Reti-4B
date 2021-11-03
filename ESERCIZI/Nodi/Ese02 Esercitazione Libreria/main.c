@@ -14,6 +14,8 @@ int main()
         printf("4. Conta nodi\n");
         printf("5. Aggiungi Nodo in una posizione\n");
         printf("6. Carica lista da File\n");
+        printf("7. Elimina Nodo in una posizione\n");
+        printf("8. Ordinare i nodi nella lista\n");
         printf("0. Esci\n");
         printf("Scelta: ");
         scanf("%d", &scelta);
@@ -38,8 +40,17 @@ int main()
             case 6:
                 testa = loadFromFile(testa, &progStu, "studenti.csv");
                 break;
+            case 7: /* data la posizione del nodo eliminarlo ricordandosi la deallocazione dalla memoria */
+                printf("\nInserisci la posizione:");
+                scanf("%d", &post);
+                testa = delByPos(testa, post);
+                printf("Eliminazione effettuata!!!");
+                break;
+            case 8:
+                sortList(testa);
+                printf("Nodi della lista ordinati!!!\n");
+                break;
         }
     }while(scelta != 0);
-
     return 0;
 }
