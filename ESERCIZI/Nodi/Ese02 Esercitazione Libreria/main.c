@@ -41,14 +41,21 @@ int main()
                 testa = loadFromFile(testa, &progStu, "studenti.csv");
                 break;
             case 7: /* data la posizione del nodo eliminarlo ricordandosi la deallocazione dalla memoria */
-                printf("\nInserisci la posizione:");
-                scanf("%d", &post);
+                do{
+                    printf("\nInserisci la posizione:");
+                    scanf("%d", &post);
+                }while(post>contaNodi(head));
                 testa = delByPos(testa, post);
                 printf("Eliminazione effettuata!!!");
                 break;
             case 8:
                 sortList(testa);
                 printf("Nodi della lista ordinati!!!\n");
+                break;
+
+            case 9: 
+                freeLista(testa); //gli passiamo l'indirizzo del puntatore testa E NON il suo contenuto
+                printf("Lista completamente disallocata!!!\n");
                 break;
         }
     }while(scelta != 0);

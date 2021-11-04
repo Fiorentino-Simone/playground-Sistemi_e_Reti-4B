@@ -1,17 +1,29 @@
-#ifndef INC_01_NODO_LISTALIB_H
-#define INC_01_NODO_LISTALIB_H
+#ifndef INC_01_NODO_LIBRERIA_H
+#define INC_01_NODO_LIBRERIA_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct studente{
-    int codice;
-    char cognome[20];
-    float media;
-    struct studente *next;
-}Studente;
+typedef struct giocatore{
+    char nome[20+1];
+    int squadra;
+    int golfatti;
+    struct giocatore *next;
+}Giocatore;
 
-Studente* addOnHead(Studente *head, int *prog); // Add nodo in testa alla lista
+typedef struct squadra{
+    int cod;
+    char nome[20+1];
+    struct giocatore *next;
+}Squadra;
+
+
+
+Giocatore* loadFromFileGiocatore(Giocatore *head, char* file_name);
+Squadra* loadFromFileSquadre(Squadre *head, int *prog, char* file_name);
+
+
+/*Studente* addOnHead(Studente *head, int *prog); // Add nodo in testa alla lista
 Studente* nuovoStudente(int *prog);
 Studente* addOnTail(Studente *head, int *prog, Studente *newSt); // Add nodo in coda alla lista
 void showList(Studente *head);
@@ -21,10 +33,10 @@ Studente* delByPos(Studente *head, int pos);
 Studente* loadFromFile(Studente *head, int *prog, char* file_name);
 Studente* nuovoStudenteDaFile(int *prog, char *cogn, float med);
 void sortList(Studente *head);
-void freeLista(Studente **head); 
+void freeLista(Studente **head);*/
 
 
-
+/*
 Studente* addOnHead(Studente *head, int *prog){
     Studente *pStu; // Puntatore al nuovo nodo
     pStu = nuovoStudente(prog);
@@ -153,14 +165,14 @@ Studente* delByPos(Studente *head, int pos){
     Studente *pDel;
     pList=head;//faccio puntare la lista a head
 
-    //PRIMO CASO: in cui pos Ã¨ la testa
+    //PRIMO CASO: in cui pos è la testa
     if(pos == 1){
         head = pList->next;
         free(pList);
     }
     else
     {
-        //SECONDO CASO: in cui pos Ã¨ maggiore di 1, ma compreso in contanodi()
+        //SECONDO CASO: in cui pos è maggiore di 1, ma compreso in contanodi()
         for(int i=1; i<pos-1; i++){
             pList=pList->next; //pList punta al nodo precedente indicato da pos
         }
@@ -170,13 +182,13 @@ Studente* delByPos(Studente *head, int pos){
     }
     return head;
 }
-
-Studente* loadFromFile(Studente *head, int *prog, char* fileName){
+*/
+Giocatore loadFromFile(Giocatore *head, char* fileName){
     FILE *fp;
-    Studente *pNew;
+    Giocatore *pNew;
     char row_file[20+1];
-    char cogn[15+1], med_str[10];
-    float media;
+    char cogn[15+1], squadraStr[10], golStr[10];
+    int squadra,gol;
     int i=0, j=0;
     fp=fopen(fileName,"r");//bisogna specificare il carattere w (write), r (read)
     if (fp == NULL) // Se fopen non eseguito correttamente
@@ -190,22 +202,38 @@ Studente* loadFromFile(Studente *head, int *prog, char* fileName){
             int len = strlen(row_file);
             i = 0;
             j = 0;
+
+            /*COGNOME*/
             while(row_file[i] != ';'){
                 cogn[i] = row_file[i];
                 i++;
             }
             cogn[i] = '\0';
             i++;
-            while(row_file[i] != '\0'){
-                med_str[j] = row_file[i];
+
+            /*NUMERO SQUADRA*/
+            while(row_file[i] !=  ';'){
+                squadraStr[j] = row_file[i];
                 i++;
                 j++;
             }
-            med_str[j] = '\0';
-            media = atof(med_str);
-            //printf("Cogn: %s Media: %.2f\n", cogn, media);
-            pNew = nuovoStudenteDaFile(prog, cogn, media);
-            head = addOnTail(head, prog, pNew);
+            squadraStr[j] = '\0';
+            squadra = atof(squadraStr);
+
+            /*GOL EFFETTUATI*/
+            int k=0;
+            while(row_file[i] !=  '\0'){
+                golStr[k] = row_file[i];
+                i++;
+                k++;
+            }
+            golStr[k] = '\0';
+            gol = atof(golStr);
+
+
+            printf("Cogn: %s Squadra: %i GOL: %i\n", cogn, squadra, gol);
+            /*pNew = nuovoStudenteDaFile(prog, cogn, media);
+            head = addOnTail(head, prog, pNew);*/
         }
     }
     fclose(fp); // Chiusura del file
@@ -229,7 +257,7 @@ void sortList(Studente *head){
         while(pList!=NULL){
             i=pList->next;  //si va a puntaree il nodo successivo in i
             while(i!=NULL){
-                if(strcmp(pList->cognome,i->cognome)>0){ //se il nodo corrente e piÃ¹ grande del nodo indice si va a fare l'ordinamento
+                if(strcmp(pList->cognome,i->cognome)>0){ //se il nodo corrente e più grande del nodo indice si va a fare l'ordinamento
                     strcpy(temp, pList->cognome);
                     strcpy(pList->cognome, i->cognome);
                     strcpy(i->cognome, temp);
@@ -248,7 +276,7 @@ void sortList(Studente *head){
         }
     }*/
 
-    //si puÃ² anche fare con il for usando i e j
+    //si può anche fare con il for usando i e j
     //ALGORITMO: BOUBLE SORT
     Studente *i=NULL; //ricordo che la i++, significa PASSARE AL NODO SUCCESSIVO (i=i->next)
     Studente *j=NULL;
@@ -276,7 +304,7 @@ void sortList(Studente *head){
                     media=i->media;
                     i->media=j->media;
                     j->media=cod;
-                
+
                     //in caso in cui entra nella if deve di nuovo ripartire dalla testa, quindi con una bool mettiamo in un while il tutto
                     rifare=1;
                 }
@@ -291,10 +319,10 @@ void freeLista(Studente **head){
         pList=*head->next;
         free(*head);
         *head=pList;//riassegno head a pList
-    } 
+    }
 }
 
-#endif //INC_01_NODO_LISTALIB_H
+#endif //INC_01_NODO_LIBRERIA_H
 
 
 
