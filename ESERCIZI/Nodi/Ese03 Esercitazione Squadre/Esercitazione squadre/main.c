@@ -2,13 +2,9 @@
 #include "libreria.h"
 
 int main() {
-
-    /*int post;
-     // Progressivo Codice Studente*/
     int scelta;
-    int progGiocatori = 0;
-    Giocatore *testaGiocatore = NULL; // Puntatore al primo nodo*/
-    Squadre *testaSquadre = NULL;
+    Giocatore *testaGiocatore = NULL; // Puntatore al primo nodo
+    Squadra *testaSquadra=NULL; //Puntatore al primo nodo
     do{
         printf("MENU'\n");
         printf("1. Caricare, nelle opportune liste, giocatori e squadre leggendo i file csv rispettivi\n");
@@ -22,6 +18,17 @@ int main() {
         switch(scelta){
             case 1: // Caricare giocatori e squadre tramite csv
                 testaGiocatore = loadFromFileGiocatore(testaGiocatore, "giocatori.csv");
+                printf("FILE GIOCATORE CARICATO CON SUCCESSO!!!\n");
+                //showList(testaGiocatore,NULL,0);
+                testaSquadra = loadFromFileSquadra(testaSquadra, "squadre.csv");
+                printf("FILE SQUADRE CARICATO CON SUCCESSO !!! \n");
+                //showList(NULL,testaSquadra,1);
+                break;
+
+            case 2: // Aggiungere un nuovo giocatore ed una nuova squadra
+                testaGiocatore = addOnTailGiocatore(testaGiocatore,NULL);
+                printf("NUOVO GIOCATORE CARICATO CON SUCCESSO!!!\n");
+                showList(testaGiocatore,NULL,0);
                 break;
         }
     }while(scelta != 0);
