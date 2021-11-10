@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1636478340 source:e:\superiori\4_superiore\sistemi e reti\esercizi\nodi\ese03 esercitazione squadre\esercitazione squadre\main.c
+1636575095 source:e:\superiori\4_superiore\sistemi e reti\esercizi\nodi\ese03 esercitazione squadre\esercitazione squadre\main.c
 	<stdio.h>
 	"libreria.h"
 
-1636479638 e:\superiori\4_superiore\sistemi e reti\esercizi\nodi\ese03 esercitazione squadre\esercitazione squadre\libreria.h
+1636575193 e:\superiori\4_superiore\sistemi e reti\esercizi\nodi\ese03 esercitazione squadre\esercitazione squadre\libreria.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
