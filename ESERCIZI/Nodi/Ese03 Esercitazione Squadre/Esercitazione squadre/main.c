@@ -10,7 +10,7 @@ int main() {
         printf("1. Caricare, nelle opportune liste, giocatori e squadre leggendo i file csv rispettivi\n");
         printf("2. Aggiungere un nuovo giocatore ed una nuova squadra (attenzione: il codice squadra è univoco)\n");
         printf("3. Rimuovere una squadra (attenzione: non possono esistere giocatori senza una squadra di riferimento)\n");
-        printf("4. Stampare la classifica marcatori\n");
+        printf("4. Stampare la classifica marcatori, chi segna più gol\n");
         printf("5. Dato in input una squadra stampare in ouput tutti i giocatori che appartengono ad essa, con il rispettivo numero di gol\n");
         printf("0. Esci\n");
         printf("Scelta: ");
