@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese04 Correzione esercitazione Squadre/libreria.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese04 Correzione esercitazione Squadre/main.c
+stdio.h
+-
+libreria.h
+D:/SUPERIORI/4_SUPERIORE/SISTEMI E RETI/ESERCIZI/Nodi/Ese04 Correzione esercitazione Squadre/libreria.h
+
