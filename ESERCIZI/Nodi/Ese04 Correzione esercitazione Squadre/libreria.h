@@ -28,11 +28,16 @@ Squadra* loadFromFileSquadra(Squadra *head, char* fileName);
 Squadra* nuovaSquadraDaFile(char* nome, int *cod);
 Squadra* addOnTailSquadra(Squadra *head, Squadra *newSquadra);
 Squadra* nuovaSquadra(Squadra *head);
-Squadra* delSq(Squadra *head, int cod);
+Squadra* delSq(Squadra *head);
+Squadra* delByPosSq(Squadra *head, int pos);
+
 
 void showList(Giocatore *headGc, Squadra *headSq, int val);
 void sortList(Giocatore *head);
 void showFilterList(Giocatore *headGc, int codSq);
+//Giocatore* removePlayers(Giocatore* head, int cod);
+
+int contaNodi(Squadra *head);
 
 Giocatore* loadFromFileGiocatore(Giocatore *head, char* fileName){
     FILE *fp;
@@ -273,18 +278,191 @@ Squadra* nuovaSquadra(Squadra *head){
     return pNew;
 }
 
-Squadra* delSq(Squadra *head, int cod){
-     //Chidere al prof: funziona solo la eliminazione della squadra, ma non dei rispettivi giocatori
-     Squadra *pList;
-     Squadra *pDel;
+int contaNodi(Squadra *head){
+    int cont = 0;
+    Squadra *p;
+    p = head;
 
-     pList=head;
-     while(pList->cod != cod){
-        pList=pList->next;
+    while(p != NULL){
+        cont++;
+        p = p -> next;
     }
-    pDel=pList->next;
-    pList->next=pDel->next;
-    free(pDel);
+    return cont;
+}
+
+
+
+Squadra* delSq(Squadra *head){
+    Squadra* pList;
+    int cod;
+    int esci=0;
+    int lun= contaNodi(head); //contanodi senno non scorre fino all'ultimo nodo
+    int i=0;
+    int posNodo;
+
+    // 0 ==> FALSE
+    // 1 ==> TRUE
+
+    /*CONTROLLO CODICE*/
+    if(head==NULL){ //vuol dire che non ci sono elementi
+        printf("Inserisci codice squadre");
+        scanf("%i",&cod);
+    }
+    else{
+        do{
+            //controllo=1;
+            printf("Inserisci codice squadra: ");
+            scanf("%i",&cod);
+            pList=head;
+
+            while(esci==0 && i!=lun){
+                if(pList->cod == cod){
+                    esci=1;
+                    posNodo=i; //ci segniamo la posizione del nodo
+                }
+                pList=pList->next;
+                i++;
+            }
+            if(esci==0) {
+                printf("Inserisci nuovamente il codice, siccome non è presente nessuna corrispondenza\n");
+                i=0;
+            }
+        }while(esci==0);
+    }
+
+
+    /*ADESSO SI RICHIAMA LA DEL BY POS*/
+    posNodo++;
+    head = delByPosSq(head,posNodo);
+    return head;
+}
+
+/*
+    //poi dopo tramite while(pList->next!=NULL) andare a eliminare con la free(pDel) il giocatore appartenente a quella squadra, poi anche qua la delbyPos faceva il resto
+
+    Giocatore* pList;
+    int lun= contaNodi(head); //contanodi senno non scorre fino all'ultimo nodo
+    int i=0;
+    int posizioni[20];
+
+    // 0 ==> FALSE
+    // 1 ==> TRUE
+
+    Giocatore *pDel;
+    pList=head;//faccio puntare la lista a head
+
+    //primo punto: faccio una ricerca e cerco le posizioni di pList che devo cancellare
+    int j=0;
+    while(i!=lun){
+        if(pList->squadra == cod){
+            posizioni[j]=i;
+            j++;
+        }
+        pList=pList->next;
+        i++;
+    }
+    i=0;
+    j=0;
+
+    pList=head;
+    //PRIMO CASO: in cui pos è la testa
+    if(posizioni[i] == 0){
+        head = pList->next;
+        free(pList);
+    }
+    else
+    {
+        for (i = 0;i < lun; i++) {
+            if(i==posizioni[j]){
+                pDel=pList->next;
+                pList->next=pDel->next;
+                free(pDel);
+            }
+            pList=pList->next;
+        }
+    }*/
+
+/*Giocatore* removePlayers(Giocatore* head, int cod)
+{
+        ///cancellazione dei giocatori relativi alla squadra
+
+        Giocatore* pListaG = head;
+        Giocatore* pDelG;
+        int cont = 0;
+
+
+        for(pListaG = head; pListaG != NULL; pListaG = pListaG->next)
+        {
+            if(pListaG->squadra == cod)
+                cont++;
+        }
+        pListaG = head;
+
+        if(contaNodi(head) == cont)
+        {
+            while(pListaG != NULL)///free totale della lista
+            {
+                pListaG = head->next;
+                free(head);
+                head = pListaG;
+            }
+        }
+        else
+        {
+            if(head->squadra == cod)
+                head = head->next;
+
+            while(pListaG->next != NULL)
+            {
+                if(pListaG->next->squadra == cod)
+                {
+                    pDelG = pListaG->next;
+
+                    pListaG->next = pDelG->next;
+                    free(pDelG);
+
+                }
+                else
+                    pListaG = pListaG->next;
+
+            }
+        }
+
+        ///Stampa giocatori (per vedere se funziona)
+        /*pListaG = head;
+        while(pListaG != NULL)
+        {
+            printf("%s-%d-%d\n",pListaG->nome, pListaG->squadra, pListaG->golfatti);
+            pListaG = pListaG->next;
+        }
+
+        return head;
+}*/
+
+
+
+Squadra* delByPosSq(Squadra *head, int pos){
+    Squadra *pList;
+    Squadra *pDel;
+    pList=head;//faccio puntare la lista a head
+
+    //la pos passata è inizializzata a 1 e NON a 0
+
+    //PRIMO CASO: in cui pos è la testa
+    if(pos == 1){
+        head = pList->next;
+        free(pList);
+    }
+    else
+    {
+        //SECONDO CASO: in cui pos è maggiore di 1, ma compreso in contanodi()
+        for(int i=1; i<pos-1; i++){
+            pList=pList->next; //pList punta al nodo precedente indicato da pos
+        }
+        pDel=pList->next;
+        pList->next=pDel->next;
+        free(pDel);
+    }
     return head;
 }
 

@@ -45,15 +45,8 @@ int main() {
 
 
             case 4: //Rimuovere una squadra (attenzione: non possono esistere giocatori senza una squadra di riferimento) ==> NOT DONE
-                printf("Inserisci codice sq: \n");
-                scanf("%i",&codSq);
-
-                //controllare se c'è il codice e poi segnarti la posizione del codice
-                //qui usare la delbypos passandoli la posizione trovata dal while precedente
-
-                //poi dopo tramite while(pList->next!=NULL) andare a eliminare con la free(pDel) il giocatore appartenente a quella squadra, poi anche qua la delbyPos faceva il resto
-                testaSquadra=delSq(testaSquadra, codSq);
-                printf("Eliminazione completata");
+                testaSquadra=delSq(testaSquadra,testaGiocatore);
+                printf("Eliminazione squadra completata");
                 showList(NULL,testaSquadra,1);
                 break;
 

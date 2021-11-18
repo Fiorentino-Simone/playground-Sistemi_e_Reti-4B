@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre"
+CMAKE_SOURCE_DIR = "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug"
+CMAKE_BINARY_DIR = "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\depend.make
@@ -60,21 +60,21 @@ include CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\flags.make
 
 CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.obj: CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\flags.make
 CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.obj: ..\main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ese04_Correzione_esercitazione_Squadre.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ese04_Correzione_esercitazione_Squadre.dir/main.c.obj"
 	C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.obj /FdCMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\ /FS -c "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\main.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.obj /FdCMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\ /FS -c "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\main.c"
 <<
 
 CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ese04_Correzione_esercitazione_Squadre.dir/main.c.i"
 	C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\main.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\main.c"
 <<
 
 CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ese04_Correzione_esercitazione_Squadre.dir/main.c.s"
 	C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.s /c "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\main.c"
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.s /c "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\main.c"
 <<
 
 # Object files for target Ese04_Correzione_esercitazione_Squadre
@@ -87,9 +87,9 @@ Ese04_Correzione_esercitazione_Squadre_EXTERNAL_OBJECTS =
 Ese04_Correzione_esercitazione_Squadre.exe: CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\main.c.obj
 Ese04_Correzione_esercitazione_Squadre.exe: CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\build.make
 Ese04_Correzione_esercitazione_Squadre.exe: CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Ese04_Correzione_esercitazione_Squadre.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Ese04_Correzione_esercitazione_Squadre.exe"
 	"C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\ENTERP~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\objects1.rsp @<<
- /out:Ese04_Correzione_esercitazione_Squadre.exe /implib:Ese04_Correzione_esercitazione_Squadre.lib /pdb:"D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\Ese04_Correzione_esercitazione_Squadre.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:Ese04_Correzione_esercitazione_Squadre.exe /implib:Ese04_Correzione_esercitazione_Squadre.lib /pdb:"I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\Ese04_Correzione_esercitazione_Squadre.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -102,6 +102,6 @@ CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\clean:
 .PHONY : CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\clean
 
 CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre" "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre" "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug" "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug" "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre" "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre" "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug" "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug" "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\depend
 

@@ -45,10 +45,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre"
+CMAKE_SOURCE_DIR = "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug"
+CMAKE_BINARY_DIR = "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -75,14 +75,14 @@ preinstall:
 CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\all:
 	$(MAKE) -f CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\depend
 	$(MAKE) -f CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Ese04_Correzione_esercitazione_Squadre"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Ese04_Correzione_esercitazione_Squadre"
 .PHONY : CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "I:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Nodi\Ese04 Correzione esercitazione Squadre\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles\Ese04_Correzione_esercitazione_Squadre.dir\rule
 
 # Convenience name for target.
