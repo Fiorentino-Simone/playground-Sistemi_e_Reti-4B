@@ -262,7 +262,7 @@ Squadra* nuovaSquadra(Squadra *head){
 
             }
             if(pList->cod == cod) controllo=0;
-            if(controllo==0) printf("Inserisci nuovamente il codice, siccome è GIA PRESENTE\n");
+            if(controllo==0) printf("Inserisci nuovamente il codice, siccome ï¿½ GIA PRESENTE\n");
         }while(controllo==0);
     }
 
@@ -324,7 +324,7 @@ Squadra* delSq(Squadra *head){
                 i++;
             }
             if(esci==0) {
-                printf("Inserisci nuovamente il codice, siccome non è presente nessuna corrispondenza\n");
+                printf("Inserisci nuovamente il codice, siccome non ï¿½ presente nessuna corrispondenza\n");
                 i=0;
             }
         }while(esci==0);
@@ -365,7 +365,7 @@ Squadra* delSq(Squadra *head){
     j=0;
 
     pList=head;
-    //PRIMO CASO: in cui pos è la testa
+    //PRIMO CASO: in cui pos ï¿½ la testa
     if(posizioni[i] == 0){
         head = pList->next;
         free(pList);
@@ -446,16 +446,16 @@ Squadra* delByPosSq(Squadra *head, int pos){
     Squadra *pDel;
     pList=head;//faccio puntare la lista a head
 
-    //la pos passata è inizializzata a 1 e NON a 0
+    //la pos passata ï¿½ inizializzata a 1 e NON a 0
 
-    //PRIMO CASO: in cui pos è la testa
+    //PRIMO CASO: in cui pos ï¿½ la testa
     if(pos == 1){
         head = pList->next;
         free(pList);
     }
     else
     {
-        //SECONDO CASO: in cui pos è maggiore di 1, ma compreso in contanodi()
+        //SECONDO CASO: in cui pos ï¿½ maggiore di 1, ma compreso in contanodi()
         for(int i=1; i<pos-1; i++){
             pList=pList->next; //pList punta al nodo precedente indicato da pos
         }
@@ -505,7 +505,7 @@ void showList(Giocatore *headGc, Squadra *headSq, int val){
 }
 
 void sortList(Giocatore *head){
-    //si può anche fare con il for usando i e j
+    //si puï¿½ anche fare con il for usando i e j
     //ALGORITMO: BOUBLE SORT
     Giocatore *i=NULL; //ricordo che la i++, significa PASSARE AL NODO SUCCESSIVO (i=i->next)
     Giocatore *j=NULL;
