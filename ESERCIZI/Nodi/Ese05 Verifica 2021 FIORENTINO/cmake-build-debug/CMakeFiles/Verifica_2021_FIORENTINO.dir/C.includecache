@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Verifica 2021 FIORENTINO/listalib.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+E:/Verifica 2021 FIORENTINO/main.c
+stdlib.h
+-
+stdio.h
+-
+listalib.h
+E:/Verifica 2021 FIORENTINO/listalib.h
+
