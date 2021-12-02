@@ -1,0 +1,6 @@
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese01 Thread Console\Ese01 Thread Console\bin\Debug\Ese01 Thread Console.exe.config
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese01 Thread Console\Ese01 Thread Console\bin\Debug\Ese01 Thread Console.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese01 Thread Console\Ese01 Thread Console\bin\Debug\Ese01 Thread Console.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese01 Thread Console\Ese01 Thread Console\obj\Debug\Ese01 Thread Console.csprojAssemblyReference.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese01 Thread Console\Ese01 Thread Console\obj\Debug\Ese01 Thread Console.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese01 Thread Console\Ese01 Thread Console\obj\Debug\Ese01 Thread Console.pdb

@@ -1,0 +1,6 @@
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese02 ScritturaFile\Ese02 ScritturaFile\bin\Debug\Ese02 ScritturaFile.exe.config
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese02 ScritturaFile\Ese02 ScritturaFile\bin\Debug\Ese02 ScritturaFile.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese02 ScritturaFile\Ese02 ScritturaFile\bin\Debug\Ese02 ScritturaFile.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese02 ScritturaFile\Ese02 ScritturaFile\obj\Debug\Ese02 ScritturaFile.csprojAssemblyReference.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese02 ScritturaFile\Ese02 ScritturaFile\obj\Debug\Ese02 ScritturaFile.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese02 ScritturaFile\Ese02 ScritturaFile\obj\Debug\Ese02 ScritturaFile.pdb

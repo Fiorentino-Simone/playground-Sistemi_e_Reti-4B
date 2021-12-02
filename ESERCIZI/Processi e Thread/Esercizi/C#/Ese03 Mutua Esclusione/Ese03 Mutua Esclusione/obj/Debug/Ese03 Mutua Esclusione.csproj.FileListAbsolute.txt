@@ -1,0 +1,6 @@
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese03 Mutua Esclusione\Ese03 Mutua Esclusione\bin\Debug\Ese03 Mutua Esclusione.exe.config
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese03 Mutua Esclusione\Ese03 Mutua Esclusione\bin\Debug\Ese03 Mutua Esclusione.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese03 Mutua Esclusione\Ese03 Mutua Esclusione\bin\Debug\Ese03 Mutua Esclusione.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese03 Mutua Esclusione\Ese03 Mutua Esclusione\obj\Debug\Ese03 Mutua Esclusione.csprojAssemblyReference.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese03 Mutua Esclusione\Ese03 Mutua Esclusione\obj\Debug\Ese03 Mutua Esclusione.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese03 Mutua Esclusione\Ese03 Mutua Esclusione\obj\Debug\Ese03 Mutua Esclusione.pdb
