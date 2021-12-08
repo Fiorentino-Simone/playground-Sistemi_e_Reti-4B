@@ -1,0 +1,7 @@
+E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese04 Produ_Consu_Buffer_Circolare\Ese04 Produ_Consu_Buffer_Circolare\bin\Debug\Ese04 Produ_Consu_Buffer_Circolare.exe.config
+E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese04 Produ_Consu_Buffer_Circolare\Ese04 Produ_Consu_Buffer_Circolare\bin\Debug\Ese04 Produ_Consu_Buffer_Circolare.exe
+E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese04 Produ_Consu_Buffer_Circolare\Ese04 Produ_Consu_Buffer_Circolare\bin\Debug\Ese04 Produ_Consu_Buffer_Circolare.pdb
+E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese04 Produ_Consu_Buffer_Circolare\Ese04 Produ_Consu_Buffer_Circolare\obj\Debug\Ese04 Produ_Consu_Buffer_Circolare.csproj.AssemblyReference.cache
+E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese04 Produ_Consu_Buffer_Circolare\Ese04 Produ_Consu_Buffer_Circolare\obj\Debug\Ese04 Produ_Consu_Buffer_Circolare.csproj.CoreCompileInputs.cache
+E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese04 Produ_Consu_Buffer_Circolare\Ese04 Produ_Consu_Buffer_Circolare\obj\Debug\Ese04 Produ_Consu_Buffer_Circolare.exe
+E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese04 Produ_Consu_Buffer_Circolare\Ese04 Produ_Consu_Buffer_Circolare\obj\Debug\Ese04 Produ_Consu_Buffer_Circolare.pdb
