@@ -5,3 +5,9 @@ E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\E
 E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese05 Produ_Consu_Singolo\Ese05 Produ_Consu_Singolo\obj\Debug\Ese05 Produ_Consu_Singolo.csproj.CoreCompileInputs.cache
 E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese05 Produ_Consu_Singolo\Ese05 Produ_Consu_Singolo\obj\Debug\Ese05 Produ_Consu_Singolo.exe
 E:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese05 Produ_Consu_Singolo\Ese05 Produ_Consu_Singolo\obj\Debug\Ese05 Produ_Consu_Singolo.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese05 Produ_Consu_Singolo\Ese05 Produ_Consu_Singolo\bin\Debug\Ese05 Produ_Consu_Singolo.exe.config
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese05 Produ_Consu_Singolo\Ese05 Produ_Consu_Singolo\bin\Debug\Ese05 Produ_Consu_Singolo.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese05 Produ_Consu_Singolo\Ese05 Produ_Consu_Singolo\bin\Debug\Ese05 Produ_Consu_Singolo.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese05 Produ_Consu_Singolo\Ese05 Produ_Consu_Singolo\obj\Debug\Ese05 Produ_Consu_Singolo.csprojAssemblyReference.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese05 Produ_Consu_Singolo\Ese05 Produ_Consu_Singolo\obj\Debug\Ese05 Produ_Consu_Singolo.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese05 Produ_Consu_Singolo\Ese05 Produ_Consu_Singolo\obj\Debug\Ese05 Produ_Consu_Singolo.pdb

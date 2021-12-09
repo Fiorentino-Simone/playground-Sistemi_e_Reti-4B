@@ -1,0 +1,6 @@
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese06 Correzione Ese05\Ese06 Correzione Ese05\bin\Debug\Ese06 Correzione Ese05.exe.config
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese06 Correzione Ese05\Ese06 Correzione Ese05\bin\Debug\Ese06 Correzione Ese05.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese06 Correzione Ese05\Ese06 Correzione Ese05\bin\Debug\Ese06 Correzione Ese05.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese06 Correzione Ese05\Ese06 Correzione Ese05\obj\Debug\Ese06 Correzione Ese05.csprojAssemblyReference.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese06 Correzione Ese05\Ese06 Correzione Ese05\obj\Debug\Ese06 Correzione Ese05.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese06 Correzione Ese05\Ese06 Correzione Ese05\obj\Debug\Ese06 Correzione Ese05.pdb
