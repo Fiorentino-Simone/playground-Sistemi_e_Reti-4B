@@ -1,0 +1,9 @@
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese07 Form_Editor\Ese07 Form_Editor\bin\Debug\Ese07 Form_Editor.exe.config
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese07 Form_Editor\Ese07 Form_Editor\bin\Debug\Ese07 Form_Editor.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese07 Form_Editor\Ese07 Form_Editor\bin\Debug\Ese07 Form_Editor.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese07 Form_Editor\Ese07 Form_Editor\obj\Debug\Ese07 Form_Editor.csprojAssemblyReference.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese07 Form_Editor\Ese07 Form_Editor\obj\Debug\Ese07_Form_Editor.Form1.resources
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese07 Form_Editor\Ese07 Form_Editor\obj\Debug\Ese07_Form_Editor.Properties.Resources.resources
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese07 Form_Editor\Ese07 Form_Editor\obj\Debug\Ese07 Form_Editor.csproj.GenerateResource.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese07 Form_Editor\Ese07 Form_Editor\obj\Debug\Ese07 Form_Editor.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI\Processi e Thread\Esercizi\C#\Ese07 Form_Editor\Ese07 Form_Editor\obj\Debug\Ese07 Form_Editor.pdb
