@@ -14,4 +14,5 @@
     1) My personal notes: [_TEORIA/CISCO/Appunti personali_](https://github.com/Fiorentino-Simone/playground-Sistemi_e_Reti-4B/tree/master/TEORIA/CISCO/Appunti%20personali)
     2) PPT of my professor: [_TEORIA/CISCO/PPT Prof_](https://github.com/Fiorentino-Simone/playground-Sistemi_e_Reti-4B/tree/master/TEORIA/CISCO/PPT%20Prof)
 
-
+> CIVIC EDUCATION:
+- The exercises about civic Education are in the folder: [_ESERCIZI/EDU CIVICA_](https://github.com/Fiorentino-Simone/playground-Sistemi_e_Reti-4B/tree/master/ESERCIZI/EDU%20CIVICA)
