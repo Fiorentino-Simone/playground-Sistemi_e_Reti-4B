@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\bin\Debug\Torneo.exe.config
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\bin\Debug\Torneo.exe
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\bin\Debug\Torneo.pdb
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.Form1.resources
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.Properties.Resources.resources
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.exe
+C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.pdb
