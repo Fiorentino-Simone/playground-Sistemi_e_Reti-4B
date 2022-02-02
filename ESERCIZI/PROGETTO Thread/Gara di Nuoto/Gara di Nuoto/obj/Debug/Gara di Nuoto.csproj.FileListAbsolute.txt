@@ -1,0 +1,10 @@
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\bin\Debug\Gara di Nuoto.exe.config
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\bin\Debug\Gara di Nuoto.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\bin\Debug\Gara di Nuoto.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\obj\Debug\Gara di Nuoto.csproj.AssemblyReference.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\obj\Debug\Gara_di_Nuoto.frmMain.resources
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\obj\Debug\Gara_di_Nuoto.Properties.Resources.resources
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\obj\Debug\Gara di Nuoto.csproj.GenerateResource.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\obj\Debug\Gara di Nuoto.csproj.CoreCompileInputs.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\obj\Debug\Gara di Nuoto.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Gara di Nuoto\Gara di Nuoto\obj\Debug\Gara di Nuoto.pdb

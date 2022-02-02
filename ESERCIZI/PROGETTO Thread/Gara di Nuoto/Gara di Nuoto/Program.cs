@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Torneo
+namespace Gara_di_Nuoto
 {
-    internal static class Program
+    static class Program
     {
         /// <summary>
         /// Punto di ingresso principale dell'applicazione.
@@ -16,7 +16,7 @@ namespace Torneo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMain());
+            Application.Run(new frmMain());
         }
     }
 }

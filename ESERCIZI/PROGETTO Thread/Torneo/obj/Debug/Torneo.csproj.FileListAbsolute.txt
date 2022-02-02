@@ -1,10 +1,20 @@
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\bin\Debug\Torneo.exe.config
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\bin\Debug\Torneo.exe
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\bin\Debug\Torneo.pdb
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.csprojAssemblyReference.cache
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.Form1.resources
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.Properties.Resources.resources
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.csproj.GenerateResource.cache
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.exe
-C:\Users\user\Desktop\Robba\Scuola\Sistemi\Pratica\Quarta\VisualStudio\Torneo\obj\Debug\Torneo.pdb
+C:\Users\Admin\Desktop\4B INF\Torneo\bin\Debug\Torneo.exe.config
+C:\Users\Admin\Desktop\4B INF\Torneo\bin\Debug\Torneo.exe
+C:\Users\Admin\Desktop\4B INF\Torneo\bin\Debug\Torneo.pdb
+C:\Users\Admin\Desktop\4B INF\Torneo\obj\Debug\Torneo.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\4B INF\Torneo\obj\Debug\Torneo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\4B INF\Torneo\obj\Debug\Torneo.FrmMain.resources
+C:\Users\Admin\Desktop\4B INF\Torneo\obj\Debug\Torneo.Properties.Resources.resources
+C:\Users\Admin\Desktop\4B INF\Torneo\obj\Debug\Torneo.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\4B INF\Torneo\obj\Debug\Torneo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\4B INF\Torneo\obj\Debug\Torneo.exe
+C:\Users\Admin\Desktop\4B INF\Torneo\obj\Debug\Torneo.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Torneo\bin\Debug\Torneo.exe.config
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Torneo\bin\Debug\Torneo.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Torneo\bin\Debug\Torneo.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Torneo\obj\Debug\Torneo.FrmMain.resources
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Torneo\obj\Debug\Torneo.Properties.Resources.resources
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Torneo\obj\Debug\Torneo.csproj.GenerateResource.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Torneo\obj\Debug\Torneo.csproj.CoreCompileInputs.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Torneo\obj\Debug\Torneo.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Torneo\obj\Debug\Torneo.pdb

@@ -1,8 +1,8 @@
-Juventus
-Torino
-Lazio
-Milan
-Inter
-Roma
-Napoli
-Atalanta
+JUVENTUS
+TORINO
+LAZIO
+MILAN
+INTER
+ROMA
+NAPOLI
+ATALANTA
