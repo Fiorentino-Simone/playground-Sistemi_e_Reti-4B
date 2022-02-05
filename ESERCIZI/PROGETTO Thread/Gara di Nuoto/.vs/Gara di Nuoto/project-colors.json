@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f7ad260c-e719-4c56-8793-00f6b9a4a10e": {
+      "ProjectGuid": "f7ad260c-e719-4c56-8793-00f6b9a4a10e",
+      "DisplayName": "Gara di Nuoto",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "File esterni",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

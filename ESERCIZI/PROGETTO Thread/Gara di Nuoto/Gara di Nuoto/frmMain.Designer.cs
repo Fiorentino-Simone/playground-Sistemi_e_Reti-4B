@@ -37,110 +37,146 @@ namespace Gara_di_Nuoto
             this.txtP4 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblPartecipanti = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblTurno = new System.Windows.Forms.Label();
+            this.lblStato = new System.Windows.Forms.Label();
+            this.gbFinalisti = new System.Windows.Forms.GroupBox();
+            this.lblGbFinalisti = new System.Windows.Forms.Label();
+            this.gbEliminati = new System.Windows.Forms.GroupBox();
+            this.lblGbEliminati = new System.Windows.Forms.Label();
             this.btnAvvia = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.gbFinalisti.SuspendLayout();
+            this.gbEliminati.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 69);
+            this.pictureBox1.Location = new System.Drawing.Point(21, 47);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(627, 626);
+            this.pictureBox1.Size = new System.Drawing.Size(626, 630);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // txtP1
             // 
-            this.txtP1.Location = new System.Drawing.Point(31, 25);
+            this.txtP1.Location = new System.Drawing.Point(52, 15);
+            this.txtP1.Margin = new System.Windows.Forms.Padding(2);
             this.txtP1.Name = "txtP1";
-            this.txtP1.Size = new System.Drawing.Size(125, 22);
+            this.txtP1.Size = new System.Drawing.Size(95, 20);
             this.txtP1.TabIndex = 1;
             // 
             // txtP2
             // 
-            this.txtP2.Location = new System.Drawing.Point(183, 25);
+            this.txtP2.Location = new System.Drawing.Point(207, 15);
+            this.txtP2.Margin = new System.Windows.Forms.Padding(2);
             this.txtP2.Name = "txtP2";
-            this.txtP2.Size = new System.Drawing.Size(125, 22);
+            this.txtP2.Size = new System.Drawing.Size(95, 20);
             this.txtP2.TabIndex = 2;
             // 
             // txtP3
             // 
-            this.txtP3.Location = new System.Drawing.Point(338, 25);
+            this.txtP3.Location = new System.Drawing.Point(366, 15);
+            this.txtP3.Margin = new System.Windows.Forms.Padding(2);
             this.txtP3.Name = "txtP3";
-            this.txtP3.Size = new System.Drawing.Size(125, 22);
+            this.txtP3.Size = new System.Drawing.Size(95, 20);
             this.txtP3.TabIndex = 3;
             // 
             // txtP4
             // 
-            this.txtP4.Location = new System.Drawing.Point(495, 25);
+            this.txtP4.Location = new System.Drawing.Point(520, 15);
+            this.txtP4.Margin = new System.Windows.Forms.Padding(2);
             this.txtP4.Name = "txtP4";
-            this.txtP4.Size = new System.Drawing.Size(125, 22);
+            this.txtP4.Size = new System.Drawing.Size(95, 20);
             this.txtP4.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(690, 30);
+            this.label1.Location = new System.Drawing.Point(659, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(349, 29);
+            this.label1.Size = new System.Drawing.Size(282, 24);
             this.label1.TabIndex = 5;
             this.label1.Text = "PARTECIPANTI ALLA GARA:";
             // 
             // lblPartecipanti
             // 
             this.lblPartecipanti.AutoSize = true;
-            this.lblPartecipanti.Location = new System.Drawing.Point(695, 83);
+            this.lblPartecipanti.Location = new System.Drawing.Point(660, 72);
+            this.lblPartecipanti.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPartecipanti.Name = "lblPartecipanti";
-            this.lblPartecipanti.Size = new System.Drawing.Size(0, 17);
+            this.lblPartecipanti.Size = new System.Drawing.Size(0, 13);
             this.lblPartecipanti.TabIndex = 6;
             // 
-            // label2
+            // lblTurno
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(692, 407);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 17);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "FASE FINALE:";
+            this.lblTurno.AutoSize = true;
+            this.lblTurno.Location = new System.Drawing.Point(660, 327);
+            this.lblTurno.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTurno.Name = "lblTurno";
+            this.lblTurno.Size = new System.Drawing.Size(77, 13);
+            this.lblTurno.TabIndex = 7;
+            this.lblTurno.Text = "FASE FINALE:";
             // 
-            // label3
+            // lblStato
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(692, 440);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 17);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "FINE GARA:";
+            this.lblStato.AutoSize = true;
+            this.lblStato.Location = new System.Drawing.Point(660, 356);
+            this.lblStato.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblStato.Name = "lblStato";
+            this.lblStato.Size = new System.Drawing.Size(67, 13);
+            this.lblStato.TabIndex = 8;
+            this.lblStato.Text = "FINE GARA:";
             // 
-            // groupBox1
+            // gbFinalisti
             // 
-            this.groupBox1.Location = new System.Drawing.Point(695, 472);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(173, 223);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "BATTERIA FINALISTI";
+            this.gbFinalisti.Controls.Add(this.lblGbFinalisti);
+            this.gbFinalisti.Location = new System.Drawing.Point(663, 384);
+            this.gbFinalisti.Margin = new System.Windows.Forms.Padding(2);
+            this.gbFinalisti.Name = "gbFinalisti";
+            this.gbFinalisti.Padding = new System.Windows.Forms.Padding(2);
+            this.gbFinalisti.Size = new System.Drawing.Size(130, 181);
+            this.gbFinalisti.TabIndex = 9;
+            this.gbFinalisti.TabStop = false;
+            this.gbFinalisti.Text = "BATTERIA FINALISTI";
             // 
-            // groupBox2
+            // lblGbFinalisti
             // 
-            this.groupBox2.Location = new System.Drawing.Point(884, 472);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(173, 223);
-            this.groupBox2.TabIndex = 10;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "ELIMINATI";
+            this.lblGbFinalisti.AutoSize = true;
+            this.lblGbFinalisti.Location = new System.Drawing.Point(13, 19);
+            this.lblGbFinalisti.Name = "lblGbFinalisti";
+            this.lblGbFinalisti.Size = new System.Drawing.Size(0, 13);
+            this.lblGbFinalisti.TabIndex = 0;
+            // 
+            // gbEliminati
+            // 
+            this.gbEliminati.Controls.Add(this.lblGbEliminati);
+            this.gbEliminati.Location = new System.Drawing.Point(844, 384);
+            this.gbEliminati.Margin = new System.Windows.Forms.Padding(2);
+            this.gbEliminati.Name = "gbEliminati";
+            this.gbEliminati.Padding = new System.Windows.Forms.Padding(2);
+            this.gbEliminati.Size = new System.Drawing.Size(130, 181);
+            this.gbEliminati.TabIndex = 10;
+            this.gbEliminati.TabStop = false;
+            this.gbEliminati.Text = "ELIMINATI";
+            // 
+            // lblGbEliminati
+            // 
+            this.lblGbEliminati.AutoSize = true;
+            this.lblGbEliminati.Location = new System.Drawing.Point(5, 19);
+            this.lblGbEliminati.Name = "lblGbEliminati";
+            this.lblGbEliminati.Size = new System.Drawing.Size(0, 13);
+            this.lblGbEliminati.TabIndex = 0;
             // 
             // btnAvvia
             // 
-            this.btnAvvia.Location = new System.Drawing.Point(944, 702);
+            this.btnAvvia.Location = new System.Drawing.Point(797, 586);
+            this.btnAvvia.Margin = new System.Windows.Forms.Padding(2);
             this.btnAvvia.Name = "btnAvvia";
-            this.btnAvvia.Size = new System.Drawing.Size(113, 38);
+            this.btnAvvia.Size = new System.Drawing.Size(85, 31);
             this.btnAvvia.TabIndex = 11;
             this.btnAvvia.Text = "AVVIA";
             this.btnAvvia.UseVisualStyleBackColor = true;
@@ -148,14 +184,14 @@ namespace Gara_di_Nuoto
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1106, 752);
+            this.ClientSize = new System.Drawing.Size(1020, 688);
             this.Controls.Add(this.btnAvvia);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.gbEliminati);
+            this.Controls.Add(this.gbFinalisti);
+            this.Controls.Add(this.lblStato);
+            this.Controls.Add(this.lblTurno);
             this.Controls.Add(this.lblPartecipanti);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtP4);
@@ -163,9 +199,15 @@ namespace Gara_di_Nuoto
             this.Controls.Add(this.txtP2);
             this.Controls.Add(this.txtP1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMain";
             this.Text = "GARA DI NUOVO";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.gbFinalisti.ResumeLayout(false);
+            this.gbFinalisti.PerformLayout();
+            this.gbEliminati.ResumeLayout(false);
+            this.gbEliminati.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -180,11 +222,13 @@ namespace Gara_di_Nuoto
         private System.Windows.Forms.TextBox txtP4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblPartecipanti;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label lblTurno;
+        private System.Windows.Forms.Label lblStato;
+        private System.Windows.Forms.GroupBox gbFinalisti;
+        private System.Windows.Forms.GroupBox gbEliminati;
         private System.Windows.Forms.Button btnAvvia;
+        private System.Windows.Forms.Label lblGbFinalisti;
+        private System.Windows.Forms.Label lblGbEliminati;
     }
 }
 
