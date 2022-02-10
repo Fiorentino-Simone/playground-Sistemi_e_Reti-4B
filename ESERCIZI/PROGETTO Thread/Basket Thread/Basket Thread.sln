@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket Thread", "Basket Thread\Basket Thread.csproj", "{0DC2402E-EAB8-49DC-A3B8-0BB1D8BB2522}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DC2402E-EAB8-49DC-A3B8-0BB1D8BB2522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC2402E-EAB8-49DC-A3B8-0BB1D8BB2522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC2402E-EAB8-49DC-A3B8-0BB1D8BB2522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC2402E-EAB8-49DC-A3B8-0BB1D8BB2522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79EBB428-EF16-4702-A0A8-D8F8BFBF01D0}
+	EndGlobalSection
+EndGlobal

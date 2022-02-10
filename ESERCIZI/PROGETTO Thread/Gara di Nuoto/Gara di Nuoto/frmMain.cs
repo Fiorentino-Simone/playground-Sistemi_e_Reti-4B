@@ -14,17 +14,18 @@ namespace Gara_di_Nuoto
 {
     public partial class frmMain : Form
     {
+        volatile object lock_campo=new object();
         volatile Random rnd;
         Thread arbitro;
         Thread[] altBatterie;
         volatile Dictionary<string,int> atleti = new Dictionary<string,int>(); //volatile perchè gestisce thread
         volatile int atletiLetti;
-        
-
+        volatile bool primoArrivato;
 
         const int BATTERIE = 4;
-        const int Yiniziale = 15;
-        const int Yfinale = 655;
+        const int INIZIO_Y = 15;
+        const int INIZIO_CORSIA = 60;
+        const int YFINALE = 655;
 
         public frmMain()
         {
@@ -34,8 +35,6 @@ namespace Gara_di_Nuoto
         private void btnAvvia_Click(object sender, EventArgs e)
         {
             //caricamento in un dict i partecipanti
-            
-
             rnd = new Random();
             lblGbEliminati.Text = "";
             lblGbFinalisti.Text = "";
@@ -52,22 +51,32 @@ namespace Gara_di_Nuoto
                 //bisogna scorrere per gli atleti e andare a farli gareggiare
                 setValore(lblTurno, "TURNO: " + (++turno).ToString());
                 eseguiGara();
-                
                 Thread.Sleep(1000); //facciamo aspettare il thread almeno 1 secondo
-
-
                 atletiResidui -= BATTERIE;
             }
             MessageBox.Show("ELIMINATORIE TERMINATE !!!");
+
+            //ora bisogna dare il via alla fase finale
+
+            setValore(lblGbFinalisti, "");
+            for (int i = 0; i < atleti.Count; i++)
+            {
+                if (atleti.ElementAt(i).Value == 2)
+                {
+                    atleti[atleti.ElementAt(i).Key] = 1;
+                }
+            }
+            eseguiGara();
         }
 
-        private void eseguiGara()
+        private void eseguiGara(int a=0) //parametro non obligatorio che ci serve per gestire il vincitore
         {
             //il thread arbitro deve prendere i primi 4 partecipanti e poi bisogna usare 4 thread che gestiscono ogni 4 thread
             int posAtl;
             //mi darà il valore estratto intero (posizione nel dictionary)
 
             altBatterie = new Thread[BATTERIE];
+            primoArrivato = false;
             TextBox txtP;
             for (int i = 0; i < BATTERIE; i++)
             {
@@ -81,32 +90,81 @@ namespace Gara_di_Nuoto
                 atleti[atleti.ElementAt(posAtl).Key] = 0;
                 BeginInvoke((MethodInvoker)delegate
                 {
-                    txtP.Text = Thread.CurrentThread.Name;
+                    txtP.Text = atleti.ElementAt(posAtl).Key;
                 });
-
+                Thread.Sleep(100);
                 //true nella bool delle lock 
-                Thread.Sleep(1000);
                 altBatterie[i] = new Thread(garaAtleta);
                 altBatterie[i].Name = atleti.ElementAt(posAtl).Key;
                 altBatterie[i].Start(txtP); 
                 
             }
 
+            setValore(lblStato, "PRONTI.....");
+            stampaAtletiResidui();
             for (int i = 0; i < BATTERIE; i++)
-                altBatterie[i].Join();
+                altBatterie[i].Join(); //deve assicurarsi che abbiano finito
             Thread.Sleep(3000);
         }
 
         private void garaAtleta(object parametri) //perche gli lo passiamo nello start
         {
-            
+            TextBox txtAtl=(parametri as TextBox);
+
+            string atleta = txtAtl.Text; //ci segnamo l'atleta corrente
+            setPos(txtAtl, txtAtl.Location.X, INIZIO_CORSIA);
+            Thread.Sleep(2000);
+            setValore(lblStato, "VIA!");
+            do
+            {
+                Thread.Sleep(300);
+                setPos(txtAtl, txtAtl.Location.X, txtAtl.Location.Y + rnd.Next(1, 50));
+            } while (txtAtl.Location.Y < YFINALE);
+
+            lock (lock_campo) //il primo thread che arriva entra ed esegue le istruzioni
+            {
+                //la lock è come un semaforo cioè gestisce la sezione critica
+                if (!primoArrivato) //controlliamo con una bool che arrivi solo un thread
+                {
+                    atleti[Thread.CurrentThread.Name] = 2;//vado a mettere il vincitore a 2 dal dict
+                    setValore(lblGbFinalisti, lblGbFinalisti.Text + Thread.CurrentThread.Name.ToString() + Environment.NewLine);
+                    primoArrivato = true;
+                }
+                else
+                {
+                    //quelli che hanno perso
+                    setValore(lblGbEliminati, lblGbEliminati.Text + Thread.CurrentThread.Name.ToString() + Environment.NewLine);
+                }
+            }
+
+            setValore(lblStato, "FINE!");
+            setPos(txtAtl, txtAtl.Location.X, INIZIO_Y);
+            setValoreTxt(txtAtl, "");
         }
+
+        private void setPos(TextBox txt, int x, int y)
+        {
+            //si occupera di spostare con le NUOVE coordinate la txt, richiamato da un thread esterno quindi usare i delegate
+            BeginInvoke((MethodInvoker)delegate //ogni volta che la si usa parte un thread
+            {
+                txt.Location = new Point(x, y);
+            });
+        }
+
 
         private void setValore(Label lbl, string msg)
         {
             BeginInvoke((MethodInvoker)delegate
             {
                 lbl.Text = msg;
+            });
+        }
+
+        private void setValoreTxt(TextBox txt, string msg)
+        {
+            BeginInvoke((MethodInvoker)delegate
+            {
+                txt.Text = msg;
             });
         }
 

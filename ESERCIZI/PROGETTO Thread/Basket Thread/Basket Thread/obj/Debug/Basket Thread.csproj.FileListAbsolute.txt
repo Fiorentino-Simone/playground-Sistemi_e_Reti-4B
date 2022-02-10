@@ -1,0 +1,11 @@
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\bin\Debug\Basket Thread.exe.config
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\bin\Debug\Basket Thread.exe
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\bin\Debug\Basket Thread.pdb
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thread.csproj.AssemblyReference.cache
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thread.csproj.SuggestedBindingRedirects.cache
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket_Thread.frmMain.resources
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket_Thread.Properties.Resources.resources
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thread.csproj.GenerateResource.cache
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thread.csproj.CoreCompileInputs.cache
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thread.exe
+C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thread.pdb
