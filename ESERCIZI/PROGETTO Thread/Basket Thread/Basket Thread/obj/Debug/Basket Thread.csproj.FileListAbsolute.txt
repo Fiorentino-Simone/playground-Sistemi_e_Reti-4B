@@ -9,3 +9,14 @@ C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thr
 C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thread.csproj.CoreCompileInputs.cache
 C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thread.exe
 C:\Users\simof\OneDrive\Desktop\Basket Thread\Basket Thread\obj\Debug\Basket Thread.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\bin\Debug\Basket Thread.exe.config
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\bin\Debug\Basket Thread.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\bin\Debug\Basket Thread.pdb
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\obj\Debug\Basket Thread.csproj.AssemblyReference.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\obj\Debug\Basket Thread.csproj.SuggestedBindingRedirects.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\obj\Debug\Basket_Thread.frmMain.resources
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\obj\Debug\Basket_Thread.Properties.Resources.resources
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\obj\Debug\Basket Thread.csproj.GenerateResource.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\obj\Debug\Basket Thread.csproj.CoreCompileInputs.cache
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\obj\Debug\Basket Thread.exe
+D:\SUPERIORI\4_SUPERIORE\SISTEMI E RETI\ESERCIZI SCOLASTICI\ESERCIZI\PROGETTO Thread\Basket Thread\Basket Thread\obj\Debug\Basket Thread.pdb

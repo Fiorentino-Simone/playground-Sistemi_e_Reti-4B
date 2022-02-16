@@ -2247,7 +2247,7 @@
         vVdjShssEoe1r2FpDmOF2uB5gjwXMvFTL9HlzOdVRULDFTWa8Rk3DdW5A8lCHk9Xqq1eqgqUIf/Z
 </value>
   </data>
-  <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="palla.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA0gAAANbCAYAAAB4pb/uAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         vYe7LUl1n80fYc/cMPdOYkgzQ54ADDMkwZBBgAQiCZAIMhIIkQUahsk53Hsnz5DkIFvOtuRsyznnHOSc
@@ -11260,7 +11260,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox3.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="palla.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA0gAAANbCAYAAAB4pb/uAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         vYe7LUl1n80fYc/cMPdOYkgzQ54ADDMkwZBBgAQiCZAIMhIIkQUahsk53Hsnz5DkIFvOtuRsyznnHOSc
