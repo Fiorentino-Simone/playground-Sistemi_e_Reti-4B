@@ -52,7 +52,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1, -1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(602, 462);
             this.pictureBox1.TabIndex = 0;
@@ -63,7 +63,7 @@
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(235, 307);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(140, 147);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -75,8 +75,8 @@
             this.palla.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("palla.BackgroundImage")));
             this.palla.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.palla.ErrorImage = ((System.Drawing.Image)(resources.GetObject("palla.ErrorImage")));
-            this.palla.Location = new System.Drawing.Point(275, 173);
-            this.palla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.palla.Location = new System.Drawing.Point(275, 151);
+            this.palla.Margin = new System.Windows.Forms.Padding(2);
             this.palla.Name = "palla";
             this.palla.Size = new System.Drawing.Size(55, 46);
             this.palla.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -87,9 +87,9 @@
             // 
             this.groupBox1.Controls.Add(this.txtGiocatore1);
             this.groupBox1.Location = new System.Drawing.Point(9, 10);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(166, 58);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
@@ -98,7 +98,7 @@
             // txtGiocatore1
             // 
             this.txtGiocatore1.Location = new System.Drawing.Point(5, 25);
-            this.txtGiocatore1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGiocatore1.Margin = new System.Windows.Forms.Padding(2);
             this.txtGiocatore1.Name = "txtGiocatore1";
             this.txtGiocatore1.Size = new System.Drawing.Size(158, 20);
             this.txtGiocatore1.TabIndex = 0;
@@ -107,9 +107,9 @@
             // 
             this.groupBox2.Controls.Add(this.txtGiocatore2);
             this.groupBox2.Location = new System.Drawing.Point(9, 73);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(166, 58);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
@@ -118,7 +118,7 @@
             // txtGiocatore2
             // 
             this.txtGiocatore2.Location = new System.Drawing.Point(5, 25);
-            this.txtGiocatore2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGiocatore2.Margin = new System.Windows.Forms.Padding(2);
             this.txtGiocatore2.Name = "txtGiocatore2";
             this.txtGiocatore2.Size = new System.Drawing.Size(158, 20);
             this.txtGiocatore2.TabIndex = 0;
@@ -166,7 +166,7 @@
             // btnAvviaGara
             // 
             this.btnAvviaGara.Location = new System.Drawing.Point(14, 129);
-            this.btnAvviaGara.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAvviaGara.Margin = new System.Windows.Forms.Padding(2);
             this.btnAvviaGara.Name = "btnAvviaGara";
             this.btnAvviaGara.Size = new System.Drawing.Size(148, 27);
             this.btnAvviaGara.TabIndex = 9;
@@ -189,7 +189,7 @@
             this.Controls.Add(this.palla);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMain";
             this.Text = "BASKET";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

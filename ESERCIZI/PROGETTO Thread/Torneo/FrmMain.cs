@@ -20,6 +20,7 @@ namespace Torneo
         Thread arbitro;
         Thread[] partite; // Gestore delle partite 
         Dictionary<int, string> associazioni = new Dictionary<int, string>();
+        
         public FrmMain()
         {
             InitializeComponent();
