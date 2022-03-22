@@ -1,0 +1,22 @@
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\bin\Debug\Verifica_Thread_B.exe.config
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\bin\Debug\Verifica_Thread_B.exe
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\bin\Debug\Verifica_Thread_B.pdb
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.csproj.AssemblyReference.cache
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.csproj.SuggestedBindingRedirects.cache
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.FrmMain.resources
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.Properties.Resources.resources
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.csproj.GenerateResource.cache
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.csproj.CoreCompileInputs.cache
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.exe
+C:\Users\I5\OneDrive - vallauri.edu\4B - INF\Sistemi e Reti\Verifiche\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.pdb
+D:\Verifica_Thread_B\bin\Debug\Verifica_Thread_B.exe.config
+D:\Verifica_Thread_B\bin\Debug\Verifica_Thread_B.exe
+D:\Verifica_Thread_B\bin\Debug\Verifica_Thread_B.pdb
+D:\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.csproj.AssemblyReference.cache
+D:\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.csproj.SuggestedBindingRedirects.cache
+D:\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.FrmMain.resources
+D:\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.Properties.Resources.resources
+D:\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.csproj.GenerateResource.cache
+D:\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.csproj.CoreCompileInputs.cache
+D:\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.exe
+D:\Verifica_Thread_B\obj\Debug\Verifica_Thread_B.pdb
