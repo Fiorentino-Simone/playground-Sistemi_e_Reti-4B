@@ -1,0 +1,98 @@
+Fine vendita biglietti: 30/03/2022 22:20:19
+Cliente: 55 ha acquistato un biglietto in posizione: 25, 54
+Cliente: 56 ha acquistato un biglietto in posizione: 23, 78
+Cliente: 33 ha acquistato un biglietto in posizione: 62, 11, 60, 91
+Cliente: 19 ha acquistato un biglietto in posizione: 4, 100, 63
+Cliente: 69 ha acquistato un biglietto in posizione: 38, 29, 83, 36
+Cliente: 45 ha acquistato un biglietto in posizione: 45, 39
+Cliente: 29 ha acquistato un biglietto in posizione: 51, 61, 15
+Cliente: 65 ha acquistato un biglietto in posizione: 90, 73, 40, 43
+
+
+Fine vendita biglietti: 30/03/2022 22:24:05
+
+Cliente: 42 ha acquistato un biglietto in posizione: 24, 80, 10, 1
+Cliente: 9 ha acquistato un biglietto in posizione: 62, 3, 98, 18
+
+
+Fine vendita biglietti: 30/03/2022 22:24:06
+
+Cliente: 42 ha acquistato un biglietto in posizione: 24, 80, 10, 1
+Cliente: 9 ha acquistato un biglietto in posizione: 62, 3, 98, 18
+
+
+Fine vendita biglietti: 30/03/2022 22:29:45
+
+Cliente: 40 ha acquistato un biglietto in posizione: 292, 348, 141, 836
+Cliente: 37 ha acquistato un biglietto in posizione: 449, 198
+Cliente: 15 ha acquistato un biglietto in posizione: 627, 87
+
+
+Fine vendita biglietti: 30/03/2022 22:29:50
+
+Cliente: 40 ha acquistato un biglietto in posizione: 292, 348, 141, 836
+Cliente: 37 ha acquistato un biglietto in posizione: 449, 198
+Cliente: 15 ha acquistato un biglietto in posizione: 627, 87
+Cliente: 44 ha acquistato un biglietto in posizione: 973, 681
+Cliente: 30 ha acquistato un biglietto in posizione: 58, 893, 531
+Cliente: 8 ha acquistato un biglietto in posizione: 992, 84
+Cliente: 60 ha acquistato un biglietto in posizione: 413
+
+
+Fine vendita biglietti: 30/03/2022 22:31:47
+
+Cliente: 18 ha acquistato un biglietto in posizione: 93, 42, 45, 95, 82
+Cliente: 37 ha acquistato un biglietto in posizione: 7, 2, 33
+Cliente: 2 ha acquistato un biglietto in posizione: 27, 10, 22, 13, 51
+Cliente: 14 ha acquistato un biglietto in posizione: 83, 71
+
+
+Fine vendita biglietti: 30/03/2022 22:31:48
+
+Cliente: 18 ha acquistato un biglietto in posizione: 93, 42, 45, 95, 82
+Cliente: 37 ha acquistato un biglietto in posizione: 7, 2, 33
+Cliente: 2 ha acquistato un biglietto in posizione: 27, 10, 22, 13, 51
+Cliente: 14 ha acquistato un biglietto in posizione: 83, 71
+
+
+Fine vendita biglietti: 30/03/2022 22:36:36
+
+Cliente: 48 ha acquistato un biglietto in posizione: 2, 22, 19
+Cliente: 39 ha acquistato un biglietto in posizione: 9, 60, 100
+Cliente: 58 ha acquistato un biglietto in posizione: 71, 50, 48
+
+
+Fine vendita biglietti: 30/03/2022 22:36:37
+
+Cliente: 48 ha acquistato un biglietto in posizione: 2, 22, 19
+Cliente: 39 ha acquistato un biglietto in posizione: 9, 60, 100
+Cliente: 58 ha acquistato un biglietto in posizione: 71, 50, 48
+
+
+Fine vendita biglietti: 30/03/2022 22:37:00
+
+Cliente: 37 ha acquistato un biglietto in posizione: 31, 1
+Cliente: 20 ha acquistato un biglietto in posizione: 27, 65, 16, 18, 89
+Cliente: 10 ha acquistato un biglietto in posizione: 46
+
+
+Fine vendita biglietti: 30/03/2022 22:37:01
+
+Cliente: 37 ha acquistato un biglietto in posizione: 31, 1
+Cliente: 20 ha acquistato un biglietto in posizione: 27, 65, 16, 18, 89
+Cliente: 10 ha acquistato un biglietto in posizione: 46
+
+
+Fine vendita biglietti: 30/03/2022 22:37:14
+
+Cliente: 57 ha acquistato un biglietto in posizione: 10, 34, 57
+Cliente: 15 ha acquistato un biglietto in posizione: 72, 42, 43
+
+
+Fine vendita biglietti: 30/03/2022 22:37:28
+
+Cliente: 8 ha acquistato un biglietto in posizione: 91
+Cliente: 7 ha acquistato un biglietto in posizione: 47
+Cliente: 3 ha acquistato un biglietto in posizione: 79, 20
+Cliente: 2 ha acquistato un biglietto in posizione: 8
+
