@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ese02 Socket TCP Server", "Ese02 Socket TCP Server\Ese02 Socket TCP Server.csproj", "{FF741D8D-19D2-48F3-9753-F65591DB8677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF741D8D-19D2-48F3-9753-F65591DB8677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF741D8D-19D2-48F3-9753-F65591DB8677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF741D8D-19D2-48F3-9753-F65591DB8677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF741D8D-19D2-48F3-9753-F65591DB8677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98D6FC6B-2824-4107-8EBC-143C55DE7365}
+	EndGlobalSection
+EndGlobal
