@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\bin\Debug\02_SocketTCP_Client.exe.config
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\bin\Debug\02_SocketTCP_Client.exe
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\bin\Debug\02_SocketTCP_Client.pdb
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\obj\Debug\02_SocketTCP_Client.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\obj\Debug\02_SocketTCP_Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\obj\Debug\_02_SocketTCP_Client.frmMain.resources
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\obj\Debug\_02_SocketTCP_Client.Properties.Resources.resources
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\obj\Debug\02_SocketTCP_Client.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\obj\Debug\02_SocketTCP_Client.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\obj\Debug\02_SocketTCP_Client.exe
+C:\Users\Admin\Desktop\Paschetta\4B INF\Socket\02_SocketTCP_Client\obj\Debug\02_SocketTCP_Client.pdb
